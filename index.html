@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="ES">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>ENCRIPTADOR DE TEXTO</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+
+    <header>
+        <h1>alura</h1>
+    </header>
+
+    <section class="section1">
+
+        <div class="input1">
+            <input type="text" class="input-Escribir" id="input" placeholder="Introduce el texto aqui">
+            <div id="customAlert" class="alert">Por favor, ingresa solo letras minúsculas.</div>
+            <p class="parrafo1"> &#33;  Solo letras minusculas y sin acentos</p>
+            
+            <div class="botones">
+                <button onclick="encriptarTexto()" id="contenedor-input1" class="boton1">Encriptar</button>
+                <button onclick="desencriptarTexto()" id="contenedor-input2" class="boton2">Desencriptar</button>
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="section2">
+        
+        <div class="output-container">
+            <output id="output" class="output-Escribir" onclick="decifrarTexto()" >Aqui aparecera tu texto</output>
+        </div>
+        <img class="imagen" src="img/Muñeco.png">
+
+        <div class="botones2">
+            <p class="parrafo2"> copia tu texto</p>
+            <button class="copiar-boton" onclick="textoEncriptado()">copiar</button>
+        </div>
+        
+    </section>
+
+
+    <script src="app.js"> </script>
+
+</body>
+
+<footer class="footer">
+    <p>Diego armando</p>
+    <a href="https://github.com/IMLSWORD">
+        <img class="footerimg" src="img/footer.png" alt="loho de github">
+    </a>
+</footer>
+
+
+</html>

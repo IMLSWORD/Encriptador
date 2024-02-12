@@ -1,0 +1,255 @@
+
+
+
+body{
+    max-width: 1368px;
+    max-height: 100%; /* Ancho máximo */
+    margin: 0 auto; /* Centrar horizontalmente */
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-color: #f0f1f8;
+}
+
+
+h1{
+    position: relative;
+    margin-bottom: 1080px;
+    color: #434E6D;
+    margin-left: 10px;
+}
+
+
+section{
+    position: relative;
+    height: 100%;
+}
+
+@font-face {
+    font-family: "chunfive";
+    src: url(font/ChunkFive-Regular.otf);
+    font-style: normal;
+    font-weight: normal;
+  }
+
+
+
+.section1{
+    position: relative;
+    width: 40%;
+    height: 500px;
+    margin: 2px 2px 500px 2px;
+
+
+}
+
+
+.input-Escribir{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    color: #434E6D;
+    font-size: 40px;
+    font-family: "chunkfive";
+    background: transparent;
+    border: transparent;
+    text-align: center;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+
+}
+.alert {
+
+    display: none;
+    position: relative;
+    text-align: center;
+    background-color: #f44336;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.show {
+    display: block;
+}
+
+
+.input-Escribir:focus{
+    outline: none;
+}
+
+.input-Escribir:active{
+    background: transparent;
+    border: transparent;
+}
+
+
+.input-Escribir::placeholder{
+    color: #434E6D;
+    font-size: 40px;
+    
+
+}
+
+.parrafo1{
+    text-align: center;
+    color: #434E6D;
+}
+
+.botones{
+ text-align: center;
+
+
+}
+
+.boton1{
+    color: #ffffff;
+    background: #434E6D;
+    font-size: 20px;
+    border-radius: 20PX 20PX 20PX 20PX;
+    margin-right: 10px;
+    border: none;
+    box-shadow: 0 0 10px 0 #434E6D;
+    
+}
+
+.boton1:hover{
+    background: #666a75;
+    box-shadow: 0 0 10px 0 #868da1;
+    font-size: 25px;
+
+}
+
+.boton1:active{
+ background-color: #a7a7a7;
+
+}
+
+
+.boton2{
+    color: #ffffff;
+    background: #8592b4;
+    font-size: 20px;
+    border-radius: 20PX 20PX 20PX 20PX;
+    border: none;
+    box-shadow: 0 0 10px 0 #434E6D;
+    
+}
+
+.boton2:hover{
+    background: #868da1;
+    box-shadow: 0 0 10px 0 #868da1;
+    font-size: 25px;
+
+}
+
+.boton2:active{
+    background-color: #a7a7a7;
+   
+   }
+
+.section2{
+    width: 30%;
+    height: 500px;
+    margin: 2px 2px 500px 200px;
+    background-color: #ffffff;
+    border: solid;
+    border-color: #d0d6e6;
+    border-radius: 30px;
+
+
+
+}
+
+
+.output-container {
+    width: 390px;
+    height: 100px;
+    overflow-y: auto;
+    margin: 10px;
+}
+
+.output-Escribir {
+    color: #434E6D;
+    font-size: 20px;
+    font-family: "chunkfive";
+    background: transparent;
+    border: transparent;
+    text-align: center;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+}
+
+.output-container::-webkit-scrollbar {
+    width: 15px; 
+}
+
+.output-container::-webkit-scrollbar-thumb {
+    background-color: #e8eeff;
+    border-radius: 6px; 
+}
+
+.output-container::-webkit-scrollbar-track {
+    background-color: #fbfcff; 
+}
+
+.imagen{
+    width: 250px;
+    height: 250px;
+    margin: 0px 0px 0 70px ;
+}
+
+.botones2{
+    text-align: center;
+
+}
+
+.parrafo2{
+    text-align: center;
+    color: #434E6D;
+    font-size: 20px;
+}
+
+.copiar-boton{
+    color: #ffffff;
+    padding: 10px 30px;
+    background: #434E6D;
+    font-size: 20px;
+    border-radius: 20PX 20PX 20PX 20PX;
+    border: none;
+    box-shadow: 0 5px 10px 0 #434E6D;
+}
+
+.copiar-boton:hover{
+    background: #666a75;
+    font-size: 25px;
+}
+
+.copiar-boton:active{
+    background-color: #a7a7a7;
+}
+
+.footer {
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    height: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #262d3f;
+    padding: 10px; 
+    color: #ffffff;
+}
+
+.footerimg{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+
